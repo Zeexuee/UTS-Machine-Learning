@@ -2,7 +2,7 @@ import math
 import random
 import csv
 
-# 1. Fungsi untuk menghitung jarak (Euclidean Distance)
+# 1. Fungsi untuk menghitung jarak 
 def hitung_jarak(titik1, titik2):
     total_kuadrat = 0
     # Mengurangi setiap dimensi fitur, mengkuadratkan, lalu dijumlahkan
