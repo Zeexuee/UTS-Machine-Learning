@@ -44,7 +44,7 @@ class Node:
         return self.nilai_daun is not None
 
 class DecisionTree:
-    """Algoritma pembangun satu buah pohon keputusan."""
+    """Algoritma membangun satu buah pohon keputusan."""
     def __init__(self, max_depth=10, min_samples_split=2, n_features=None):
         self.max_depth = max_depth
         self.min_samples_split = min_samples_split
